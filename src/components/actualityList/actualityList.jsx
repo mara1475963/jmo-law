@@ -3,7 +3,7 @@ import { actualities } from "../../data/actualities";
 import ActualityItem from "../actualityItem/actualityItem";
 import "./actualityList.css";
 const ActualityList = () => {
-  console.log(actualities);
+
 
   return (
     <div className="actuality-list-container">

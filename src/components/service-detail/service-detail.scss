@@ -1,0 +1,10 @@
+
+.service-detail-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 50px;
+    button{
+        width: 200px;
+    }
+}

@@ -1,8 +1,23 @@
-import React from "react";
-import ActualityList from "../actualityList/actualityList";
-import { Slide } from "react-slideshow-image";
-import "./slideshow.css";
-import "react-slideshow-image/dist/styles.css";
+import React from 'react';
+import { Slide } from 'react-slideshow-image';
+import './slideshow.css'
+import 'react-slideshow-image/dist/styles.css'
+import ActualityList from '../actualityList/actualityList';
+
+const slideImages = [
+  {
+    url: 'https://images.unsplash.com/photo-1509721434272-b79147e0e708?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80',
+    caption: 'Slide 1'
+  },
+  {
+    url: 'https://images.unsplash.com/photo-1509721434272-b79147e0e708?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80',
+    caption: 'Slide 2'
+  },
+  {
+    url: 'https://images.unsplash.com/photo-1509721434272-b79147e0e708?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80',
+    caption: 'Slide 3'
+  },
+];
 
 const Slideshow = () => {
   const properties = {
@@ -12,17 +27,18 @@ const Slideshow = () => {
     arrows: false,
     infinite: true,
     easing: "ease",
-    indicators: (i) => <div className="indicator">{i + 1}</div>,
+    indicators: (i) => <div className="indicator">{i + 1}</div>
   };
-  return (
-    <div className="slide-container">
-      <Slide {...properties}>
-        <div className="each-slide">
-          <h1>hello</h1>
-        </div>
-      </Slide>
-    </div>
-  );
-};
-
+    return (
+      <div className="slide-container">
+        <Slide {...properties}>
+         {slideImages.map((slideImage, index)=> (
+            <div className="each-slide" key={index}>
+              <ActualityList />
+            </div>
+          ))} 
+        </Slide>
+      </div>
+    )
+}
 export default Slideshow;

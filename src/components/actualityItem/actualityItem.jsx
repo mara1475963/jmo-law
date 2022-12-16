@@ -3,7 +3,6 @@ import "./actualityItem.scss";
 
 const ActualityItem = ({ actuality }) => {
   const { title, date, imageUrl } = actuality;
-  console.log();
   return (
     <div className="actuality-item-container">
       <img src={imageUrl} />

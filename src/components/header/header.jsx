@@ -12,8 +12,10 @@ const Header = () => {
         </h1>
         <h4>Advokáti vašich projektů</h4>
       </div>
-      <div className="vl"></div>
-      <Slideshow />
+ 
+      <div className="slideshow">
+        <Slideshow />
+      </div>
     </header>
   );
 };
