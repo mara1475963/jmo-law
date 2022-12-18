@@ -1,23 +1,61 @@
-h2 {
-    color: red;
+.header-section {
+    color: black;
     font-weight: 100;
     width: 100%;
     border-bottom: 1px solid red;
     line-height: 0.1em;
     text-transform: uppercase;
 
-    
+  
+
+    .icon{
+      top: 10px;
+    }
 
     span {
       position: relative;
-      top:8px;
       background: white;
       padding: 0 10px;
       img{
       width: 50px;
       height: 50px;
       position: relative;
-    top: 1rem;
+      top: 1rem;
       }
     }
+}
+
+.header-profile{
+  text-align: left;
+  .name{
+    margin-left: 50px;
+  }
+}
+
+.section-header {
+  position: relative;
+  font-size: 30px;
+  z-index: 1;
+  overflow: hidden;
+  text-align: center;
+  color: black;
+  text-transform: uppercase;
+  font-weight: 100;
+ 
+  span{
+    padding: 0 10px;
+  }
+}
+.section-header:before, .section-header:after {
+  position: absolute;
+  top: 51%;
+  overflow: hidden;
+  width: 50%;
+  height: 1px;
+  content: '\a0';
+  background-color: red;
+}
+.section-header:before {
+  margin-left: -50%;
+  text-align: right;
 }

@@ -1,0 +1,19 @@
+.coop-container{
+    h3{
+        text-align: left;
+    }
+    .reasons{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        row-gap: 100px;
+        text-align: center;
+     .big{
+            color: red;
+        }
+    }
+    .rewards{
+        img{
+            width: 150px;
+        }
+    }
+}

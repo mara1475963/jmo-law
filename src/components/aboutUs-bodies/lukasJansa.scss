@@ -1,0 +1,12 @@
+.profile-detail{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-size: 1rem;
+    column-gap: 10px;
+    text-align: left;
+    img{
+        height: 400px;
+        float: right;
+    }
+
+}

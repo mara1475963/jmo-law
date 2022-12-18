@@ -27,4 +27,21 @@ export const actualities = [
     imageUrl: "https://i.ibb.co/ZYW3VTp/brown-brim.png",
     body: "asdasdasdasd",
   },
+  ,
+  {
+    id: 5,
+    date: "1/1/2011",
+    title: "Co jsem se....",
+    imageUrl: "https://i.ibb.co/ZYW3VTp/brown-brim.png",
+    body: "asdasdasdasd",
+  },
+  ,
+  {
+    id: 6,
+    date: "1/1/2011",
+    title: "Co jsem se....",
+    imageUrl: "https://i.ibb.co/ZYW3VTp/brown-brim.png",
+    body: "asdasdasdasd",
+  },
+  
 ];

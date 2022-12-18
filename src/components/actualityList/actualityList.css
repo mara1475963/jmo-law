@@ -1,7 +1,13 @@
 .actuality-list-container {
+  
   grid-column-start: 3;
   grid-column-end: 4;
   margin-left: 20px;
   line-height: 15px;
   font-size: 0.7rem;
+}
+.actuality-list-container-grid {
+  
+ display: grid;
+ grid-template-columns: 1fr 1fr;
 }

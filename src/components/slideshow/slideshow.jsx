@@ -34,7 +34,7 @@ const Slideshow = () => {
         <Slide {...properties}>
          {slideImages.map((slideImage, index)=> (
             <div className="each-slide" key={index}>
-              <ActualityList />
+              <ActualityList count={3} styleClass='actuality-list-container' />
             </div>
           ))} 
         </Slide>

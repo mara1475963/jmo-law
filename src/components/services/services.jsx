@@ -44,37 +44,46 @@ const icon = '/assets/service-icons/service-icon.PNG'
     title:'Firemni Pravo'
   },
 ]
-const [selected,setSelected] = useState(icons[0])
+const [selected,setSelected] = useState(null)
 
 const myRef = useRef(null);
 
 const executeScroll = () => {
     console.log()
-    myRef.current.scrollIntoView()
+    myRef.current.scrollIntoView({behavior: 'smooth'})
 }
 const onClickHandler = (id)=>{
+    if(id === null){
+      setSelected(null)
+      return;
+    }
     setSelected({...icons[id]});
-    executeScroll();
-    
+    executeScroll(); 
 }
 
+console.log(selected)
+
   return (
-    <>
+    <div id='section--1'>
     <div className='services-container'>
-        {icons.map(({icon,title},idx)=> (
-            <div className='service-container' key={idx} onClick={()=>onClickHandler(idx)}>
+        {icons.map(({icon,iconActive,title},idx)=> (
+          <div className='service-container' key={idx} onClick={()=>onClickHandler(idx)}>
               
-              <img src={icon} />
+              <img alt='N/A' src={selected&& icons[idx].title===selected.title ? iconActive:icon} />
               <span className='title'>{title}</span>
           </div>
            
            ))} 
     </div>
-    <div ref={myRef} >
-
-    <ServiceDetail service={selected}/>
+    
+        {selected && 
+        <div ref={myRef} >
+          <button onClick={()=>onClickHandler(null)}>X</button>
+        <ServiceDetail service={selected}/>
+        </div>}
+    
+    
     </div>
-    </>
   )
 }
 
