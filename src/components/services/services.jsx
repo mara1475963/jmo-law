@@ -5,11 +5,11 @@ import FiremniPravo from "../service-detail-bodies/firemniPravo";
 import PravoNemovitosti from "../service-detail-bodies/pravoNemovitosti";
 
 const Services = () => {
-  const icon = "/assets/service-icons/service-icon.PNG";
+  const icon = "assets/service-icons/service-icon.PNG";
   const icons = [
     {
       icon: icon,
-      iconActive: "/assets/service-icons/service-icon-active.PNG",
+      iconActive: "assets/service-icons/service-icon-active.PNG",
       title: "FIREMNI PRAVO",
       body: <FiremniPravo />,
     },
@@ -34,8 +34,8 @@ const Services = () => {
       title: "Firemni Pravo",
     },
     {
-      icon: "/assets/service-icons/service-icon2.PNG",
-      iconActive: "/assets/service-icons/service-icon2-active.PNG",
+      icon: "assets/service-icons/service-icon2.PNG",
+      iconActive: "assets/service-icons/service-icon2-active.PNG",
       title: "PRÁVO NEMOVITOSTNÍ",
       body: <PravoNemovitosti />,
     },

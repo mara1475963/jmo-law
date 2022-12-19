@@ -10,7 +10,7 @@ const AboutUs = () => {
   const profiles = [
     {
       name: "Lukáš Jansa",
-      imgProfile: "/assets/profile-images/profile1.PNG",
+      imgProfile: "assets/profile-images/profile1.PNG",
       description: `Lukáš patří mezi přední
     odborníky na IT právo v ČR.
     Přednáší také na konferencích
@@ -22,7 +22,7 @@ const AboutUs = () => {
     },
     {
       name: "Lukáš Jansa",
-      imgProfile: "/assets/profile-images/profile1.PNG",
+      imgProfile: "assets/profile-images/profile1.PNG",
       description: `Lukáš patří mezi přední
     odborníky na IT právo v ČR.
     Přednáší také na konferencích
@@ -34,7 +34,7 @@ const AboutUs = () => {
     },
     {
       name: "Lukáš Jansa",
-      imgProfile: "/assets/profile-images/profile1.PNG",
+      imgProfile: "assets/profile-images/profile1.PNG",
       description: `Lukáš patří mezi přední
     odborníky na IT právo v ČR.
     Přednáší také na konferencích
@@ -46,7 +46,7 @@ const AboutUs = () => {
     },
     {
       name: "Lukáš Jansa",
-      imgProfile: "/assets/profile-images/profile1.PNG",
+      imgProfile: "assets/profile-images/profile1.PNG",
       description: `Lukáš patří mezi přední
     odborníky na IT právo v ČR.
     Přednáší také na konferencích
@@ -58,7 +58,7 @@ const AboutUs = () => {
     },
     {
       name: "Lukáš Jansa",
-      imgProfile: "/assets/profile-images/profile1.PNG",
+      imgProfile: "assets/profile-images/profile1.PNG",
       description: `Lukáš patří mezi přední
     odborníky na IT právo v ČR.
     Přednáší také na konferencích
@@ -70,7 +70,7 @@ const AboutUs = () => {
     },
     {
       name: "Lukáš Jansa",
-      imgProfile: "/assets/profile-images/profile1.PNG",
+      imgProfile: "assets/profile-images/profile1.PNG",
       description: `Lukáš patří mezi přední
     odborníky na IT právo v ČR.
     Přednáší také na konferencích
