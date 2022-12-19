@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/jmo-law/static/css/main.aede9d97.css",
+    "main.js": "/jmo-law/static/js/main.471ab7c5.js",
+    "static/js/787.23d68597.chunk.js": "/jmo-law/static/js/787.23d68597.chunk.js",
+    "static/media/logo.svg": "/jmo-law/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/jmo-law/index.html",
+    "main.aede9d97.css.map": "/jmo-law/static/css/main.aede9d97.css.map",
+    "main.471ab7c5.js.map": "/jmo-law/static/js/main.471ab7c5.js.map",
+    "787.23d68597.chunk.js.map": "/jmo-law/static/js/787.23d68597.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.aede9d97.css",
+    "static/js/main.471ab7c5.js"
+  ]
+}
