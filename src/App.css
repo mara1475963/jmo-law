@@ -2,8 +2,7 @@
   text-align: center;
   display: flex;
   flex-direction: column;
-    row-gap: 50px;
-    padding: 0px 10px;
-    box-sizing: border-box;
-    overflow: hidden;
+  row-gap: 50px;
+  box-sizing: border-box;
+  overflow: hidden;
 }

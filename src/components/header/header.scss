@@ -2,33 +2,26 @@
   display: grid;
   grid-template-columns: 4fr 0.5px 2fr;
   align-items: center;
-  height: 70vh;
   column-gap: 10px;
   padding: 10px;
-
   .title {
     text-align: left;
 
     .header-title {
-      
-      
-
       span {
         margin-left: 50px;
         color: red;
-  
       }
     }
     h4 {
       margin: 20px 60px;
-    
     }
   }
   .vl {
     height: 100%;
     border-right: 1px solid grey;
   }
-  .slideshow{
+  .slideshow {
     grid-column-start: 2;
     grid-column-end: 4;
     grid-row-start: 1;
@@ -36,11 +29,20 @@
   }
 }
 header {
-  padding: 0 3rem;
-  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
+  .header-divider {
+    height: 10px;
+    width: 100%;
+    background: rgb(231, 231, 231);
+    background: linear-gradient(
+      90deg,
+      rgba(231, 231, 231, 1) 0%,
+      rgba(194, 194, 194, 1) 61%,
+      rgba(231, 231, 231, 1) 100%
+    );
+  }
 }
 .nav {
   display: flex;
@@ -49,6 +51,7 @@ header {
   width: 100%;
   padding: 0 6rem;
   z-index: 100;
+  background-color: white;
 }
 
 /* nav and stickly class at the same time */
@@ -71,4 +74,3 @@ header {
 .nav__item {
   margin-left: 4rem;
 }
-

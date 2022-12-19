@@ -1,23 +1,25 @@
-.services-container{
-    :hover{
-        cursor: pointer;
+.services-container {
+  :hover {
+    cursor: pointer;
+  }
+  display: grid;
+  text-align: center;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  row-gap: 50px;
+  column-gap: 50px;
+  max-width: 1000px;
+  margin: auto;
+  padding: 0px 100px;
+  .service-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    img {
+      width: 100px;
+      height: 100px;
     }
-    display: grid;
-    text-align: center;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    row-gap: 50px;
-    column-gap: 50px;
-    padding: 0px 100px;
-    .service-container{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        img{
-            width: 100px;
-            height: 100px;
-        }
-        span{
-            text-transform: uppercase;
-        }
+    span {
+      text-transform: uppercase;
     }
+  }
 }
