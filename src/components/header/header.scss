@@ -46,6 +46,7 @@ header {
 }
 .nav {
   display: flex;
+  height: 60px;
   justify-content: space-between;
   align-items: center;
   width: 100%;
@@ -69,8 +70,13 @@ header {
   display: flex;
   align-items: center;
   list-style: none;
-}
+  padding-right: 100px;
 
+  a {
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+}
 .nav__item {
   margin-left: 4rem;
 }

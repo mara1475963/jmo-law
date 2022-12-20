@@ -23,6 +23,12 @@ const References = () => {
     {
       url: "assets/references/reference1.PNG",
     },
+    {
+      url: "assets/references/reference1.PNG",
+    },
+    {
+      url: "assets/references/reference1.PNG",
+    },
   ];
 
   return (

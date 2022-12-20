@@ -1,19 +1,23 @@
-.coop-container{
-    h3{
-        text-align: left;
+.coop-container {
+  max-width: 1000px;
+  margin: auto;
+  h3 {
+    text-align: left;
+  }
+  .reasons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 100px;
+    text-align: center;
+    column-gap: 100px;
+    .big {
+      color: red;
+      font-size: 2rem;
     }
-    .reasons{
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        row-gap: 100px;
-        text-align: center;
-     .big{
-            color: red;
-        }
+  }
+  .rewards {
+    img {
+      width: 150px;
     }
-    .rewards{
-        img{
-            width: 150px;
-        }
-    }
+  }
 }

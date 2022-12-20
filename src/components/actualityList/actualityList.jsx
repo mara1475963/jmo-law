@@ -12,7 +12,7 @@ const ActualityList = ({ count, styleClass }) => {
         .map((actuality) => (
           <ActualityItem key={actuality.id} actuality={actuality} />
         ))}
-      <h4>AKUTALITY</h4>
+      {count === 3 && <h4>AKUTALITY</h4>}
     </div>
   );
 };

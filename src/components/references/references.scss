@@ -1,20 +1,20 @@
-.references-container{
-    width: 130vh;
-    margin: auto;
+.references-container {
+  max-width: 1000px;
+  margin: auto;
 }
-.statistics-container{
-    display: flex;
-    column-gap: 20px;
+.statistics-container {
+  display: flex;
+  column-gap: 20px;
 }
 
-.statistic-item{
-    display: flex;
-    flex-direction: column;
-    width: 250px;
-    height: 50px;
-    background-color: gray;
-    padding: 10px;
-    .number{
-        border-bottom: 2px solid black;
-    }
+.statistic-item {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  height: 50px;
+  background-color: gray;
+  padding: 10px;
+  .number {
+    border-bottom: 2px solid black;
+  }
 }
